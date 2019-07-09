@@ -43,7 +43,7 @@ public class Digit2or3or4 {
 			n=n/10;
 			System.out.println(n+ " Digit");
 			count = count + 1;
-			
+			//n++;
 			
 		}
 		System.out.println(count+" Digit ");
