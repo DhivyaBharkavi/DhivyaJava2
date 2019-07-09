@@ -6,7 +6,7 @@ public class DigitTest {
 		// TODO Auto-generated method stub
 		Digit2or3or4 d1 = new Digit2or3or4();
 		d1.getInput();
-		//d1.digit();
+		///d1.digit();
 		d1.digit1();
 	}
 
