@@ -6,7 +6,6 @@ public class CrossSalaryTest {
 		// TODO Auto-generated method stub
 		CrossSalary cs = new CrossSalary();
 		cs.getInput();
-	
 		cs.calculate();
 	}
 
