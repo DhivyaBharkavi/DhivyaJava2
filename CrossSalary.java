@@ -18,6 +18,8 @@ public class CrossSalary {
 			hra = salary * 0.2;
 			da = salary * 0.8;
 			crossSalary=salary+hra+da;
+			System.out.println("HRA "+hra);
+			System.out.println("Da " +da);
 			System.out.println("Cross Salary "+crossSalary);
 		}
 		else if(salary <= 20000)
@@ -25,6 +27,8 @@ public class CrossSalary {
 			hra = salary * 0.25;
 			da = salary * 0.9;
 			crossSalary=salary+hra+da;
+			System.out.println("HRA "+hra);
+			System.out.println("Da " +da);
 			System.out.println("Cross Salary "+crossSalary);
 		}
 		else if(salary > 20000)
@@ -32,6 +36,8 @@ public class CrossSalary {
 			hra = salary * 0.3;
 			da = salary * 0.95;
 			crossSalary=salary+hra+da;
+			System.out.println("HRA "+hra);
+			System.out.println("Da " +da);
 			System.out.println("Cross Salary "+crossSalary);
 		}
 	}
