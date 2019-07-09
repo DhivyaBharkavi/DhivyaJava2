@@ -18,7 +18,8 @@ public class Divisible5and11 {
 	void divisible() {
 
 		if (n % 5 == 0 && n % 11 == 0) {
-			//if (n % -5 == 0 && n % -11 == 0) {
+			//if (n % -5 == 0 && n % -11 == 0)
+			{
 				System.out.println(n + " is divisible by 5 and 11  ");
 			//}
 		} else {
