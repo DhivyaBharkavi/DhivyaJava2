@@ -10,5 +10,4 @@ public class DivisibleTest {
 		// dd.divisible1();
 		// dd.divisible2();
 	}
-
 }
