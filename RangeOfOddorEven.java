@@ -1,0 +1,37 @@
+package exercise9july19;
+
+import java.util.Scanner;
+
+public class RangeOfOddorEven {
+	int n;
+	Scanner scan = new Scanner(System.in);
+	void getInput()
+	{
+		System.out.println("Enter a number");
+		n=scan.nextInt();
+	}
+
+void condition()
+{
+	if(n%2==0)
+	{
+		if(n>2 && n<5)
+		{
+			System.out.println("Not Weird");
+		}
+		else if(n>6 && n<12)
+		{
+			System.out.println("Weird");
+		}
+		else if(n>20)
+		{
+			System.out.println("Not Weird");
+		}
+	}
+		else
+		{
+			System.out.println("Weird");
+		}
+	
+}
+}
